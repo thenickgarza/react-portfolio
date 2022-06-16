@@ -3,14 +3,14 @@ import React from 'react';
 
 const Nav = () => {
     return (
-        <header>
-            <h1>
-                <a href="/">
+        <header className="flex-row">
+            <h2>
+                <a className="home-name" href="/">
                     Nick Garza
                 </a>
-            </h1>
+            </h2>
             <nav>
-                <ul>
+                <ul className="flex-row">
                 <li className="mx-2">
                     <a href="/AboutMe">About Me</a>
                 </li>
