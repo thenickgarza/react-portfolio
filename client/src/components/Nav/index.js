@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaHome } from 'react-icons/fa'
 
 
 const Nav = () => {
@@ -6,19 +7,19 @@ const Nav = () => {
         <header className="flex-row">
             <h2>
                 <a className="home-name" href="/">
-                    Nick Garza
+                    <FaHome/>
                 </a>
             </h2>
             <nav>
                 <ul className="flex-row">
                 <li className="mx-2">
-                    <a href="/AboutMe">About Me</a>
+                    <a className="nav-text" href="/AboutMe">About Me</a>
                 </li>
                 <li className="mx-2">
-                    <a href="/MyWork">My Work</a>
+                    <a className="nav-text" href="/MyWork">My Work</a>
                 </li>
                 <li className="mx-2">
-                    <a href="/ContactMe">Contact Me</a>
+                    <a className="nav-text" href="/ContactMe">Contact Me</a>
                 </li>
                 </ul>
             </nav>

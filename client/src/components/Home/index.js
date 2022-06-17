@@ -1,10 +1,11 @@
 import { render } from "@testing-library/react";
 import { useEffect, useState } from "react";
+// import Nav from "../Nav";
 // import { Link } from "react-router-dom";
 // import LogoLG from "../../assets/images/ce-logo-wht.png";
 
-const textArray1 = ['Hello!', 'Hola!', 'Welcome!'];
-const textArray2 = ['Full-Stack Web Developer', 'Innovator Of Ideas', 'Your Guy!',];
+const textArray1 = ['Hi!', 'Hello!', 'Hola!', 'Welcome!'];
+const textArray2 = ['Full-Stack Web Developer', 'Innovator Of Ideas', 'Designer!',];
 
 const Home = () => {
     const [index1, setIndex1] = useState(0);
@@ -44,6 +45,8 @@ const Home = () => {
     
     
 return (
+    <section>
+        {/* <Nav></Nav> */}
 <div className="container-fluid">
     <div className="row align-items-center">
         <div className="col-lg-6 home-text-container">
@@ -60,6 +63,7 @@ return (
         
     </div>
 </div>
+</section>
   );
 };
 
