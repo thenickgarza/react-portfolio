@@ -25,7 +25,8 @@ footer {
    position: fixed;
    left: 0;
    bottom: 0;
-   width: 100%;
+   width: 7%;
+   height: 100%;
    background-color:#0090C1;
    color: white;
    text-align: center;
@@ -57,7 +58,12 @@ html {
   text-align: left;
   padding-top: 15%;
   padding-left: 20%;
+  
 }
+
+/* .homebox {
+  justify-content: center;
+} */
 
 .welcome-text {
   display: block;
@@ -83,4 +89,8 @@ html {
 
 .nav-text {
   font-size: large;
+}
+/* Side bar  */
+.side-bar-icons {
+  display: grid;
 }

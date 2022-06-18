@@ -1,52 +1,28 @@
 import './App.css';
 import Home from './components/Home';
 // import Projects from './components/MyWork';
-import React, { useState } from 'react';
+import React from 'react';
 import Nav from './components/Nav';
-import Foot from './components/Footer';
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import About from './components/About';
+import contactMe from './components/Contact';
+import MyWork from './components/MyWork';
 
 
 function App() {
-  const [navChoices] = useState([
-    {
-      name: "about me"
-    },
-    {
-      name: "My Work"
-    },
-    {
-      name: "Contact Me"
-    }
-  ]);
-
-  const [currentScreen, setCurrentScreen] = useState(navChoices[0])
 
   return (
-    <div>
-      <Nav
-      navChoices={navChoices}
-      setCurrentScreen={setCurrentScreen}
-      currentScreen={currentScreen}
-      ></Nav>
-      <main>
-        <Home></Home>
-      </main>
-      <Foot></Foot>
-    </div>
+    <Router>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="mywork" element={<MyWork />} />
+        <Route path="conact" element={<contactMe/>} />
+      </Routes>
+    </Router>
   )
- 
- 
- 
-  // return (
-  //   <div>
-  //   <Home></Home>
-  //   <main>
-  //     <div>
-  //   <Projects></Projects>
-  //   </div>
-  //   </main>
-  //   </div>
-  // );
 }
 
 export default App;
+

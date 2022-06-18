@@ -1,4 +1,4 @@
-import { render } from "@testing-library/react";
+import React from "react";
 import { useEffect, useState } from "react";
 // import Nav from "../Nav";
 // import { Link } from "react-router-dom";
@@ -68,4 +68,3 @@ return (
 };
 
 export default Home;
-

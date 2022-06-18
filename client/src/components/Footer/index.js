@@ -5,13 +5,14 @@ function Foot() {
     
     return (
         <footer>
-          <a href="www.github.com/thenickgarza">
+            <div className="side-bar-icons">
+          <a href="#www.github.com/thenickgarza">
           <FaGithubSquare size={30} color="white"/>
           </a>
           <a>
           <FaLinkedin size={30} color="white"/>
           </a>
-            
+            </div>
         </footer>
     ) 
 }
