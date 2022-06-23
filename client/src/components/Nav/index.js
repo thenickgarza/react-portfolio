@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaHome } from 'react-icons/fa'
-import Button from 'react-bootstrap/Button'
+
 
 
 const Nav = () => {
@@ -14,7 +14,7 @@ const Nav = () => {
             <nav>
                 <ul className="flex-row">
                 <li className="mx-2">
-                    <Button variant="outline-secondary" className="nav-text" href="/about">About Me</Button>
+                    <a className="nav-text" href="/about">About Me</a>
                 </li>
                 <li className="mx-2">
                     <a className="nav-text" href="/mywork">My Work</a>
