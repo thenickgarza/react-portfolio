@@ -1,14 +1,7 @@
-:root {
-  --primary: #8c54ff;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
-  --light: #fafafa;
-  --dark: #000000;
-  --darker: #111111;
-  --error: rgb(228, 46, 1);
-  --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -27,7 +20,7 @@ footer {
    bottom: 0;
    width: 7%;
    height: 100%;
-   background-color:#0090C1;
+   background-color: #4D5057;
    color: white;
    text-align: center;
 }
@@ -35,14 +28,14 @@ footer {
 html {
   width: 100%;
   height: 100%;
-  background-color: #183446;
+  background-color: #4D5057;
 }
 .flex-row {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  background-color: #0090C1;
+  background-color: #4D5057;
 }
 
 .mx-2 {
@@ -68,23 +61,24 @@ html {
 .welcome-text {
   display: block;
   font-size: 3vw;
-  color:white;
+  color: #3BC14A;
 }
 
 .intro-text {
   display: block;
   font-size: 2.5vw;
-  color: #0090C1;
+  background-color: #4D5057;
+  color: #CFCFCF
 }
 
 .job-text {
   display: block;
   font-size: 3vw;
-  color: white;
+  color: #3BC14A;
 }
 
 .container-fluid {
-  background-color: #183446;
+  background-color: #4D5057;
 }
 
 .nav-text {
@@ -151,4 +145,23 @@ input[type=submit]:hover {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+}
+
+.myWorkContainer {
+  background-color: #4D5057;
+  padding-top: 100px;
+}
+
+#root {
+  background-color: #4D5057;
+}
+
+.contactmebox {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-self: center;
+  text-align: center;
+  padding-top: 200px;
+  border-bottom-style: solid;
+  border-color: white;
 }
