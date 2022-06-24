@@ -156,12 +156,15 @@ input[type=submit]:hover {
   background-color: #4D5057;
 }
 
-.contactmebox {
+.contactmecontainer {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 100px;
+
+}
+
+.grid {
+  display: grid;
   flex-wrap: wrap;
-  align-items: center;
-  justify-self: center;
-  text-align: center;
-  padding-top: 200px;
-  border-bottom-style: solid;
-  border-color: white;
 }
