@@ -20,6 +20,7 @@ function App() {
         <Route path="mywork" element={<MyWork />} />
         <Route path="contactme" element={<ContactMe/>} />
       </Routes>
+      
     </Router>
   )
 }

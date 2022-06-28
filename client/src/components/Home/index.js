@@ -4,8 +4,8 @@ import { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
 // import LogoLG from "../../assets/images/ce-logo-wht.png";
 
-const textArray1 = ['Hi!', 'Hello!', 'Hola!', 'Welcome!'];
-const textArray2 = ['Full-Stack Web Developer', 'Innovator Of Ideas', 'Designer!',];
+const textArray1 = ['Hi!', 'Welcome!', 'Hola!'];
+const textArray2 = ['Full-Stack Web Developer', 'Innovator Of Ideas', 'Father'];
 
 const Home = () => {
     const [index1, setIndex1] = useState(0);

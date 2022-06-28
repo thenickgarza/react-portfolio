@@ -5,6 +5,7 @@ import Button from "react-bootstrap/Button";
 import SmartHome from '../../assets/images/Smart-Home.png'
 import AuctionHouse from '../../assets/images/AuctionHouse.png'
 import Homepage from '../../assets/images/Homepage.png'
+import WeatherApp from "../../assets/images/WeatherApp.png"
 import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
@@ -30,7 +31,6 @@ function MyWork() {
       </Card.Body>
     </Card>
     </Col>
-    
     <Col>
     <Card className="card" style={{ width: '18rem' }}>
       <Card.Img variant="top" src={Homepage} />
@@ -38,7 +38,7 @@ function MyWork() {
         <Card.Title>Custom Homepage</Card.Title>
         <Card.Text>
           This custom browser homepage was built using HTML, CSS, and JavaScript. It utilizes the built in fetch 
-          function in JS to make muiltiple calls to various API's to recieve data based on your prefences in the 
+           in JS to make muiltiple calls to various API's to recieve data based on your prefences in the 
           settins menu. 
         </Card.Text>
         <Button href="https://thenickgarza.github.io/Browser-Landing-Page/"  style={{backgroundColor: '#4da167'}}>Live Url</Button>
@@ -63,15 +63,15 @@ function MyWork() {
     </Col>
     <Col>
     <Card className="card" style={{ width: '18rem' }}>
-      {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+      <Card.Img variant="top" src={WeatherApp} />
       <Card.Body>
         <Card.Title>Weather App</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the bulk of
-          the card's content.
+          This weather app uses HTML, CSS, and JavaScript's built in fetch to make an api call to gather weather
+          data for the city searched.
         </Card.Text>
-        <Button style={{backgroundColor: '#4da167'}}>Live Url</Button>
-        <Button style={{backgroundColor: '#4da167'}}>View Code</Button>
+        <Button href="https://thenickgarza.github.io/Weather-Dashboard/" style={{backgroundColor: '#4da167'}}>Live Url</Button>
+        <Button href="https://github.com/thenickgarza/Weather-Dashboard" style={{backgroundColor: '#4da167'}}>View Code</Button>
       </Card.Body>
     </Card>
     </Col>
