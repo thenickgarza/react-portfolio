@@ -7,20 +7,20 @@ const Nav = () => {
     return (
         <header className="flex-row">
             <h2>
-                <a className="home-name" href="/">
+                <a className="home-name" href="/" style={{color: '#3bc14a'}}>
                     <FaHome/>
                 </a>
             </h2>
             <nav>
                 <ul className="flex-row">
                 <li className="mx-2">
-                    <a className="nav-text" href="/about">About Me</a>
+                    <a className="nav-text" href="/about" style={{color: '#3bc14a'}}>About Me</a>
                 </li>
                 <li className="mx-2">
-                    <a className="nav-text" href="/mywork">My Work</a>
+                    <a className="nav-text" href="/mywork" style={{color: '#3bc14a'}} >My Work</a>
                 </li>
                 <li className="mx-2">
-                    <a className="nav-text" href="/contactme">Contact Me</a>
+                    <a className="nav-text" href="/contactme" style={{color: '#3bc14a'}}>Contact Me</a>
                 </li>
                 </ul>
             </nav>

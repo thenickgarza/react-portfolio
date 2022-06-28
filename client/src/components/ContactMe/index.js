@@ -6,15 +6,13 @@ function ContactMe() {
 
     return (
         <section className="contactmecontainer">
-            <form id="contact-form">
+            <form id="contact-form" >
                 <div>
                 <h1 style={{textAlign: "center"}}>Contact me</h1>
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" />
-                
-                
                     <label htmlFor="email">Email address:</label>
-                    <input type="email" name="email" style={{    width: "-webkit-fill-available"}} />
+                    <input type="email" name="email" style={{width: "-webkit-fill-available"}} />
                 </div>
                 <div>
                     <label htmlFor="message">Message</label>
