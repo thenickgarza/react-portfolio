@@ -6,17 +6,14 @@ import SmartHome from '../../assets/images/Smart-Home.png'
 import AuctionHouse from '../../assets/images/AuctionHouse.png'
 import Homepage from '../../assets/images/Homepage.png'
 import WeatherApp from "../../assets/images/WeatherApp.png"
-import { Container } from "react-bootstrap";
-import { Row } from "react-bootstrap";
-import { Col } from "react-bootstrap";
 
 function MyWork() {
 
     return (
-      <Container className="myWorkContainer">
+      <section>
         <h1 style={{textAlign: 'center', color: "#cfcfcf", paddingBottom: "50px"}}> My Projects </h1>
-        <Row>
-        <Col>
+      <div style={{display: "flex", flexWrap: "wrap", justifyContent: 'space-evenly'}}>
+        
       <Card className="card" style={{ width: '18rem' }}>
       <Card.Img variant="top" src={SmartHome} />
       <Card.Body>
@@ -30,8 +27,8 @@ function MyWork() {
         <Button href="https://github.com/thenickgarza/smart-home" style={{backgroundColor: '#4da167'}}>View Code</Button>
       </Card.Body>
     </Card>
-    </Col>
-    <Col>
+    
+    
     <Card className="card" style={{ width: '18rem' }}>
       <Card.Img variant="top" src={Homepage} />
       <Card.Body>
@@ -45,8 +42,8 @@ function MyWork() {
         <Button href="https://github.com/thenickgarza/RavenclawG-2"  style={{backgroundColor: '#4da167'}}>View Code</Button>
       </Card.Body>
     </Card>
-    </Col>
-    <Col>
+    
+    
     <Card className="card" style={{ width: '18rem' }}>
       <Card.Img variant="top" src={AuctionHouse} />
       <Card.Body>
@@ -60,8 +57,8 @@ function MyWork() {
         <Button href="https://github.com/thenickgarza/auction-house" style={{backgroundColor: '#4da167'}}>View Code</Button>
       </Card.Body>
     </Card>
-    </Col>
-    <Col>
+    
+    
     <Card className="card" style={{ width: '18rem' }}>
       <Card.Img variant="top" src={WeatherApp} />
       <Card.Body>
@@ -74,11 +71,11 @@ function MyWork() {
         <Button href="https://github.com/thenickgarza/Weather-Dashboard" style={{backgroundColor: '#4da167'}}>View Code</Button>
       </Card.Body>
     </Card>
-    </Col>
-    <Col>
-    </Col>
-    </Row>
-    </Container>
+    
+    </div>
+    
+    </section>
+    
     )
 };
 
