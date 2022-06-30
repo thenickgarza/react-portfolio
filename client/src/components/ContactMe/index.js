@@ -8,7 +8,7 @@ function ContactMe() {
         <section className="contactmecontainer">
             <form id="contact-form" >
                 <div>
-                <h1 style={{textAlign: "center"}}>Contact me</h1>
+                <h1 style={{display: "flex", justifyContent: "center", color: "#CFCFCF"}}>Contact me</h1>
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" />
                     <label htmlFor="email">Email address:</label>
