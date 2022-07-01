@@ -1,5 +1,5 @@
 import React from "react";
-import { FaHome } from "react-icons/fa";
+// import { FaHome } from "react-icons/fa";
 
 const Nav = () => {
   return (
@@ -10,7 +10,7 @@ const Nav = () => {
           href="/"
           style={{ color: "#3bc14a", marginLeft: "15px" }}
         >
-          <FaHome />
+          {/* <FaHome /> */}
         </a>
       </h2>
       <nav>
