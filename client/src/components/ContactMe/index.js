@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { motion } from "framer-motion";
 
 export const ContactMe = () => {
   const form = useRef();
@@ -26,9 +27,14 @@ export const ContactMe = () => {
   }
 
   return (
-    <section className="contactmecontainer">
+    <motion.section 
+    className="contactmecontainer"
+    initial={{opacity:0}}
+    animate={{opacity: 1}}
+    exit={{opacity: 0}}
+    >
       <div style={{ borderRight: "solid", paddingRight: "225px" }}>
-        <header>Contact me today!</header>
+        <h2>Contact me today!</h2>
       </div>
       <form ref={form} onSubmit={sendEmail} id="contact-form">
         <div>
@@ -60,7 +66,7 @@ export const ContactMe = () => {
           </div>
         </div>
       </form>
-    </section>
+    </motion.section>
   );
 };
 

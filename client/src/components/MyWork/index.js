@@ -6,10 +6,15 @@ import SmartHome from "../../assets/images/Smart-Home.png";
 import AuctionHouse from "../../assets/images/AuctionHouse.png";
 import Homepage from "../../assets/images/Homepage.png";
 import WeatherApp from "../../assets/images/WeatherApp.png";
+import { motion } from 'framer-motion'
 
 function MyWork() {
   return (
-    <section>
+    <motion.section
+    initial={{opacity:0}}
+    animate={{opacity: 1}}
+    exit={{opacity: 0}}
+    >
       <h2
         style={{ textAlign: "center", color: "#cfcfcf", paddingBottom: "50px" }}
       >
@@ -119,7 +124,7 @@ function MyWork() {
           </Card.Body>
         </Card>
       </div>
-    </section>
+    </motion.section>
   );
 }
 

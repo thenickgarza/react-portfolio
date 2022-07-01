@@ -8,10 +8,15 @@ import {
   faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
 import profilePic from "../../assets/images/profilePic.png";
+import { motion } from 'framer-motion'
 
 function About() {
   return (
-    <section>
+    <motion.section
+    initial={{opacity:0}}
+    animate={{opacity: 1}}
+    exit={{opacity: 0}}
+    >
       <div
         style={{ display: "flex", justifyContent: "center", marginTop: "50px" }}
       >
@@ -115,7 +120,7 @@ function About() {
           <FontAwesomeIcon icon={faNodeJs} />
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 

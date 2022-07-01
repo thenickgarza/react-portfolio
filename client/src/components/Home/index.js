@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
 // import LogoLG from "../../assets/images/ce-logo-wht.png";
 
+import { motion } from 'framer-motion'
+
 const textArray1 = ["Hi!", "Welcome!", "Hola!"];
 const textArray2 = ["Full-Stack Web Developer", "Innovator Of Ideas", "Father"];
 
@@ -48,7 +50,11 @@ const Home = () => {
   }, []);
 
   return (
-    <section>
+    <motion.section
+    initial={{opacity:0}}
+    animate={{opacity: 1}}
+    exit={{opacity: 0}}
+    >
       {/* <Nav></Nav> */}
       <div className="container-fluid">
         <div className="row align-items-center">
@@ -65,7 +71,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
