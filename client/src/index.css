@@ -84,6 +84,10 @@ html {
 .nav-text {
   font-size: large;
 }
+
+a :hover {
+  color: #3BC14A
+}
 /* Side bar  */
 .side-bar-icons {
   display: grid;
@@ -114,6 +118,7 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #3bc14a;
 }
+
 
 /* Style the container/contact section */
 .container {

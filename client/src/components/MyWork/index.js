@@ -18,7 +18,7 @@ function MyWork() {
     >
       <div style={{display: "flex", justifyContent: "center"}}>
       <h2
-        style={{borderBottom: "solid", color: "#cfcfcf", marginBottom: "50px" }}
+        style={{borderBottom: "solid", color: "#3BC14A", marginBottom: "50px" }}
       >
         My Projects
       </h2>

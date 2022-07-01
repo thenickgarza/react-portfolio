@@ -20,7 +20,7 @@ function About() {
       <div
         style={{ display: "flex", justifyContent: "center", marginTop: "50px" }}
       >
-        <h1 style={{ borderBottom: "solid", color: "#CFCFCF" }}>
+        <h1 style={{ borderBottom: "solid", color: "#3BC14A" }}>
           A Little About Me
         </h1>
       </div>
@@ -34,23 +34,28 @@ function About() {
         }}
       >
         <div style={{ textAlign: "center", fontSize: "20px" }}>
+          <div style={{display: "flex", justifyContent: "center"}}>
           <h1
             style={{
               display: "flex",
               justifyContent: "center",
-              color: "#CFCFCF"
+              color: "#3BC14A",
+              borderBottom: "solid"
             }}
           >
             Stats
           </h1>
+          </div>
+          <div>
           <br />
-          <p style={{ color: "#3bc14a" }}>Name: Nicholas Brooks Garza </p>
-          <p style={{ color: "#3bc14a" }}>Age: 25 </p>
-          <p style={{ color: "#3bc14a" }}>Born: December 14th, 1996</p>
-          <p style={{ color: "#3bc14a" }}>Location: Austin, Tx</p>
-          <p style={{ color: "#3bc14a" }}>
+          <p style={{ color: "#CFCFCF" }}>Name: Nicholas Brooks Garza </p>
+          <p style={{ color: "#CFCFCF" }}>Age: 25 </p>
+          <p style={{ color: "#CFCFCF" }}>Born: December 14th, 1996</p>
+          <p style={{ color: "#CFCFCF" }}>Location: Austin, Tx</p>
+          <p style={{ color: "#CFCFCF" }}>
             Education: UT Austin Full Stack Coding Bootcamp
           </p>
+          </div>
         </div>
         <div>
           <img
@@ -60,7 +65,7 @@ function About() {
           />
         </div>
         <div style={{ marginTop: "70px", textAlign: "center", fontSize: "20px" }}>
-          <p style={{ color: "#3bc14a" }}>
+          <p style={{ color: "#CFCFCF" }}>
             Hello! I am Nicholas Garza. Web Developer Enthusiast!
             <br />
             <br />
@@ -76,10 +81,10 @@ function About() {
           display: "flex",
           justifyContent: "center",
           marginTop: "50px",
-          color: "#CFCFCF",
+          color: "#3BC14A",
         }}
       >
-        <h1 style={{ borderBottom: "solid" }}>Skills</h1>
+        <h1 style={{ borderBottom: "solid", }}>Skills</h1>
       </div>
       <div
         style={{
