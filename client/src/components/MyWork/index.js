@@ -6,21 +6,23 @@ import SmartHome from "../../assets/images/Smart-Home.png";
 import AuctionHouse from "../../assets/images/AuctionHouse.png";
 import Homepage from "../../assets/images/Homepage.png";
 import WeatherApp from "../../assets/images/WeatherApp.png";
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion";
+import "@fontsource/bodoni-moda";
 
 function MyWork() {
   return (
     <motion.section
-    initial={{opacity:0}}
-    animate={{opacity: 1}}
-    exit={{opacity: 0}}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
     >
+      <div style={{display: "flex", justifyContent: "center"}}>
       <h2
-        style={{ textAlign: "center", color: "#cfcfcf", paddingBottom: "50px" }}
+        style={{borderBottom: "solid", color: "#cfcfcf", marginBottom: "50px" }}
       >
-        {" "}
-        My Projects{" "}
+        My Projects
       </h2>
+      </div>
       <div
         style={{
           display: "flex",
@@ -28,7 +30,10 @@ function MyWork() {
           justifyContent: "space-evenly",
         }}
       >
-        <Card className="card" style={{ width: "18rem" }}>
+        <Card
+          className="card"
+          style={{ width: "18rem", backgroundColor: "rgb(207, 207, 207)" }}
+        >
           <Card.Img variant="top" src={SmartHome} />
           <Card.Body>
             <Card.Title>SmartHome</Card.Title>
@@ -39,20 +44,23 @@ function MyWork() {
             </Card.Text>
             <Button
               href="https://young-earth-27956.herokuapp.com/"
-              style={{ backgroundColor: "#4da167" }}
+              style={{ backgroundColor: "#4da167", borderBlockColor: "#4da167", marginRight: "10px" }}
             >
               Live Url
             </Button>
             <Button
               href="https://github.com/thenickgarza/smart-home"
-              style={{ backgroundColor: "#4da167" }}
+              style={{ backgroundColor: "#4da167", borderBlockColor: "#4da167" }}
             >
               View Code
             </Button>
           </Card.Body>
         </Card>
 
-        <Card className="card" style={{ width: "18rem" }}>
+        <Card
+          className="card"
+          style={{ width: "18rem", backgroundColor: "rgb(207, 207, 207)" }}
+        >
           <Card.Img variant="top" src={Homepage} />
           <Card.Body>
             <Card.Title>Custom Homepage</Card.Title>
@@ -64,20 +72,23 @@ function MyWork() {
             </Card.Text>
             <Button
               href="https://thenickgarza.github.io/Browser-Landing-Page/"
-              style={{ backgroundColor: "#4da167" }}
+              style={{ backgroundColor: "#4da167", borderBlockColor: "#4da167", marginRight: "10px" }}
             >
               Live Url
             </Button>
             <Button
               href="https://github.com/thenickgarza/RavenclawG-2"
-              style={{ backgroundColor: "#4da167" }}
+              style={{ backgroundColor: "#4da167", borderBlockColor: "#4da167" }}
             >
               View Code
             </Button>
           </Card.Body>
         </Card>
 
-        <Card className="card" style={{ width: "18rem" }}>
+        <Card
+          className="card"
+          style={{ width: "18rem", backgroundColor: "rgb(207, 207, 207)" }}
+        >
           <Card.Img variant="top" src={AuctionHouse} />
           <Card.Body>
             <Card.Title>Auction House</Card.Title>
@@ -88,20 +99,23 @@ function MyWork() {
             </Card.Text>
             <Button
               href="https://stormy-fjord-57144.herokuapp.com/"
-              style={{ backgroundColor: "#4da167" }}
+              style={{ backgroundColor: "#4da167", borderBlockColor: "#4da167", marginRight: "10px" }}
             >
               Live Url
             </Button>
             <Button
               href="https://github.com/thenickgarza/auction-house"
-              style={{ backgroundColor: "#4da167" }}
+              style={{ backgroundColor: "#4da167", borderBlockColor: "#4da167" }}
             >
               View Code
             </Button>
           </Card.Body>
         </Card>
 
-        <Card className="card" style={{ width: "18rem" }}>
+        <Card
+          className="card"
+          style={{ width: "18rem", backgroundColor: "rgb(207, 207, 207)" }}
+        >
           <Card.Img variant="top" src={WeatherApp} />
           <Card.Body>
             <Card.Title>Weather App</Card.Title>
@@ -111,13 +125,13 @@ function MyWork() {
             </Card.Text>
             <Button
               href="https://thenickgarza.github.io/Weather-Dashboard/"
-              style={{ backgroundColor: "#4da167" }}
+              style={{ backgroundColor: "#4da167", borderBlockColor: "#4da167", marginRight: "10px" }}
             >
               Live Url
             </Button>
             <Button
               href="https://github.com/thenickgarza/Weather-Dashboard"
-              style={{ backgroundColor: "#4da167" }}
+              style={{ backgroundColor: "#4da167", borderBlockColor: "#4da167"}}
             >
               View Code
             </Button>

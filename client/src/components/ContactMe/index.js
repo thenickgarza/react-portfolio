@@ -47,9 +47,9 @@ export const ContactMe = () => {
             />
           </div>
           <div>
-            <input type="email" placeholder="Email Address" name="email" />
+            <input type="email" placeholder="Email Address" name="email" style={{width: "-webkit-fill-available"}}/>
           </div>
-          <div>
+          <div style={{marginTop: "10px"}}>
             <input type="text" placeholder="Subject" name="subject" />
           </div>
           <div>
@@ -61,8 +61,8 @@ export const ContactMe = () => {
               name="message"
             ></textarea>
           </div>
-          <div>
-            <input type="submit" value="Send Messsage"></input>
+          <div style={{display: "flex", justifyContent: "center", marginTop: "10px"}}>
+            <input type="submit" value="Send Messsage" ></input>
           </div>
         </div>
       </form>

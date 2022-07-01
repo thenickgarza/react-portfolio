@@ -104,7 +104,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #4DA167;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -112,7 +112,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #3bc14a;
 }
 
 /* Style the container/contact section */
@@ -167,4 +167,12 @@ padding-top: 100px;
 .grid {
   display: grid;
   flex-wrap: wrap;
+}
+
+.card {
+  background-color: rgb(207, 207, 207);
+}
+
+.btn-primary {
+  border-color: none;
 }

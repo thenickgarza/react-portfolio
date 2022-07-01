@@ -20,9 +20,9 @@ function About() {
       <div
         style={{ display: "flex", justifyContent: "center", marginTop: "50px" }}
       >
-        <h2 style={{ borderBottom: "solid", color: "#CFCFCF" }}>
+        <h1 style={{ borderBottom: "solid", color: "#CFCFCF" }}>
           A Little About Me
-        </h2>
+        </h1>
       </div>
       <div
         style={{
@@ -33,16 +33,16 @@ function About() {
           marginLeft: "40px",
         }}
       >
-        <div style={{ textAlign: "center" }}>
-          <h2
+        <div style={{ textAlign: "center", fontSize: "20px" }}>
+          <h1
             style={{
               display: "flex",
               justifyContent: "center",
-              color: "#CFCFCF",
+              color: "#CFCFCF"
             }}
           >
             Stats
-          </h2>
+          </h1>
           <br />
           <p style={{ color: "#3bc14a" }}>Name: Nicholas Brooks Garza </p>
           <p style={{ color: "#3bc14a" }}>Age: 25 </p>
@@ -59,7 +59,7 @@ function About() {
             style={{ width: "225px", height: "auto", justifyContent: "center" }}
           />
         </div>
-        <div style={{ marginTop: "70px", textAlign: "center" }}>
+        <div style={{ marginTop: "70px", textAlign: "center", fontSize: "20px" }}>
           <p style={{ color: "#3bc14a" }}>
             Hello! I am Nicholas Garza. Web Developer Enthusiast!
             <br />
@@ -79,7 +79,7 @@ function About() {
           color: "#CFCFCF",
         }}
       >
-        <h2 style={{ borderBottom: "solid" }}>Skills</h2>
+        <h1 style={{ borderBottom: "solid" }}>Skills</h1>
       </div>
       <div
         style={{
