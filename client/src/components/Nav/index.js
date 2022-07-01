@@ -7,7 +7,7 @@ const Nav = () => {
     return (
         <header className="flex-row">
             <h2>
-                <a className="home-name" href="/" style={{color: '#3bc14a'}}>
+                <a className="home-name" href="/" style={{color: '#3bc14a', marginLeft: "15px"}}>
                     <FaHome/>
                 </a>
             </h2>

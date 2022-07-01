@@ -7,6 +7,7 @@ import {
   faReact,
   faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
+import profilePic from '../../assets/images/profilePic.png'
 
 function About() {
     return (
@@ -14,8 +15,8 @@ function About() {
         <div style={{display: "flex", justifyContent: "center", marginTop: "50px"}}>
           <h2 style={{borderBottom: "solid", color: "#CFCFCF"}}>A Little About Me</h2>
         </div>
-        <div style={{display: "flex", flexWrap: "wrap", justifyContent: "space-evenly", marginTop: "50px"}}>
-          <div>
+        <div style={{display: "flex", flexWrap: "wrap", justifyContent: "space-evenly", marginTop: "50px", marginLeft: "40px"}}>
+          <div style={{textAlign: "center"}}>
             <h2 style={{display: "flex", justifyContent: "center", color: "#CFCFCF"}}>Stats</h2>
             <br/>
             <p style={{color: '#3bc14a'}}>Name: Nicholas Brooks Garza </p> 
@@ -24,7 +25,10 @@ function About() {
             <p style={{color: '#3bc14a'}}>Location: Austin, Tx</p>
             <p style={{color: '#3bc14a'}}>Education: UT Austin Full Stack Coding Bootcamp</p>
           </div>
-          <div style={{marginTop: "70px"}}>
+          <div>
+            <img alt="profilepicture" src={profilePic} style={{width: "225px", height: "auto", justifyContent:"center"}}/>
+            </div>
+          <div style={{marginTop: "70px", textAlign: "center"}}>
             <p style={{color: '#3bc14a'}}>
               Hello! I am Nicholas Garza. Web Developer Enthusiast!<br/> 
               <br/>

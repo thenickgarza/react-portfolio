@@ -11,7 +11,7 @@ function MyWork() {
 
     return (
       <section>
-        <h1 style={{textAlign: 'center', color: "#cfcfcf", paddingBottom: "50px"}}> My Projects </h1>
+        <h2 style={{textAlign: 'center', color: "#cfcfcf", paddingBottom: "50px"}}> My Projects </h2>
       <div style={{display: "flex", flexWrap: "wrap", justifyContent: 'space-evenly'}}>
         
       <Card className="card" style={{ width: '18rem' }}>
@@ -23,7 +23,7 @@ function MyWork() {
           The site was made to provide "smart home" services to customers 
           while creating jobs for providers.
         </Card.Text>
-        <Button href="https://young-earth-27956.herokuapp.com/" style={{backgroundColor: '#4da167'}}>Live Url</Button>
+        <Button href="https://young-earth-27956.herokuapp.com/" style={{backgroundColor: '#4da167',}} >Live Url</Button>
         <Button href="https://github.com/thenickgarza/smart-home" style={{backgroundColor: '#4da167'}}>View Code</Button>
       </Card.Body>
     </Card>
@@ -71,6 +71,8 @@ function MyWork() {
         <Button href="https://github.com/thenickgarza/Weather-Dashboard" style={{backgroundColor: '#4da167'}}>View Code</Button>
       </Card.Body>
     </Card>
+
+    
     
     </div>
     
