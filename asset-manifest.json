@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactportfolio/static/css/main.c741c0c8.css",
+    "main.js": "/reactportfolio/static/js/main.10f001fb.js",
+    "static/js/787.e29dc422.chunk.js": "/reactportfolio/static/js/787.e29dc422.chunk.js",
+    "static/media/Homepage.png": "/reactportfolio/static/media/Homepage.b0cd432bf2cc996ca1e5.png",
+    "static/media/Smart-Home.png": "/reactportfolio/static/media/Smart-Home.8b00d0c05a699be04e07.png",
+    "static/media/AuctionHouse.png": "/reactportfolio/static/media/AuctionHouse.0f892e8e1f99b3bb0e1b.png",
+    "static/media/WeatherApp.png": "/reactportfolio/static/media/WeatherApp.131740e22fc61ba118fc.png",
+    "static/media/profilePic.png": "/reactportfolio/static/media/profilePic.81691f791908f2c6cbc0.png",
+    "static/media/bodoni-moda-all-400-normal.woff": "/reactportfolio/static/media/bodoni-moda-all-400-normal.d00329a543305a7155cd.woff",
+    "static/media/bodoni-moda-latin-400-normal.woff2": "/reactportfolio/static/media/bodoni-moda-latin-400-normal.c2f1abb26e279752dcad.woff2",
+    "static/media/bodoni-moda-latin-ext-400-normal.woff2": "/reactportfolio/static/media/bodoni-moda-latin-ext-400-normal.9abb0fd93994a605f374.woff2",
+    "index.html": "/reactportfolio/index.html",
+    "main.c741c0c8.css.map": "/reactportfolio/static/css/main.c741c0c8.css.map",
+    "main.10f001fb.js.map": "/reactportfolio/static/js/main.10f001fb.js.map",
+    "787.e29dc422.chunk.js.map": "/reactportfolio/static/js/787.e29dc422.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c741c0c8.css",
+    "static/js/main.10f001fb.js"
+  ]
+}
