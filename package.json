@@ -2,7 +2,7 @@
   "name": "reactportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://localhost:3000",
+  "homepage": "http://thenickgarza.github.io/reactportfolio",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@fontsource/bodoni-moda": "^4.5.6",
