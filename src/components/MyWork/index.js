@@ -38,9 +38,9 @@ function MyWork() {
           <Card.Body>
             <Card.Title>SmartHome</Card.Title>
             <Card.Text>
-              SmartHome is a project built with React and GraphQL as the
-              database. The site was made to provide "smart home" services to
-              customers while creating jobs for providers.
+              SmartHome is a project built with React, GraphQL, JWT,
+              Express, and Node.js. The site was made to be the connection 
+              between customers and providers in regards to smart home services.  
             </Card.Text>
             <Button
               href="https://young-earth-27956.herokuapp.com/"
@@ -66,7 +66,7 @@ function MyWork() {
             <Card.Title>Custom Homepage</Card.Title>
             <Card.Text>
               This custom browser homepage was built using HTML, CSS, and
-              JavaScript. It utilizes the built in fetch in JS to make muiltiple
+              Vanilla JavaScript. It utilizes fetch in muiltiple instances to make 
               calls to various API's to recieve data based on your prefences in
               the settins menu.
             </Card.Text>
@@ -94,8 +94,8 @@ function MyWork() {
             <Card.Title>Auction House</Card.Title>
             <Card.Text>
               Auction House is a auction house built using HTML, CSS,
-              JavaScript, Node.js, MySQl, and Handlebars. Users are able to
-              signup/login, sell products, and bid on various items.
+              JavaScript, Express, Node.js, MySQl, and Handlebars. Users are able to
+              signup, login, logout, post products, and bid on other users posted items.
             </Card.Text>
             <Button
               href="https://stormy-fjord-57144.herokuapp.com/"
@@ -120,8 +120,8 @@ function MyWork() {
           <Card.Body>
             <Card.Title>Weather App</Card.Title>
             <Card.Text>
-              This weather app uses HTML, CSS, and JavaScript's built in fetch
-              to make an api call to gather weather data for the city searched.
+              This weather app uses HTML, CSS, and Vanilla JavaScript's built in fetch
+              to make a API call to gather current weather data for the city searched.
             </Card.Text>
             <Button
               href="https://thenickgarza.github.io/Weather-Dashboard/"
