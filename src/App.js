@@ -10,7 +10,7 @@ import Home from './components/Home';
 function App() {
 
   return (
-    <>
+
     <Router>
       <Nav />
       <Routes>
@@ -20,7 +20,6 @@ function App() {
         <Route path="contactme" element={<ContactMe/>} />
         </Routes>
         </Router>
-      </>
   )
 }
 
