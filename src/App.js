@@ -12,8 +12,12 @@ function App() {
   return (
     <>
     <Nav />
+    <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="mywork" element={<MyWork />} />
+        <Route path="contactme" element={<ContactMe/>} />
     <Routes>
-        <Route path="/react-portfolio" element={<Home />} />
+        <Route path="react-portfolio" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="mywork" element={<MyWork />} />
         <Route path="contactme" element={<ContactMe/>} />
