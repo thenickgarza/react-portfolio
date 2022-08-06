@@ -10,8 +10,7 @@ const Nav = () => {
           className="home-name"
           href="/"
           style={{ color: "#3bc14a", marginLeft: "15px" }}
-        ><Link to="/"></Link>
-          <FaHome />
+        ><Link to="/"><FaHome /></Link>
         </a>
       </h2>
       <nav>
@@ -23,7 +22,6 @@ const Nav = () => {
           </li>
           <li className="mx-2">
             <a className="nav-text" href="/mywork" style={{ color: "#3bc14a" }}><Link to="/mywork">My Work</Link>
-              My Work
             </a>
           </li>
           <li className="mx-2">
