@@ -7,6 +7,8 @@ import About from './components/About';
 // import ContactMe from './components/ContactMe'
 import Home from './components/Home';
 // import Projects from './components/MyWork';
+import { FaHome } from "react-icons/fa";
+import { Link } from "react-router-dom";
 function App() {
 
   return (
