@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.644d7b65.css",
-    "main.js": "/react-portfolio/static/js/main.464fb9d2.js",
+    "main.js": "/react-portfolio/static/js/main.3ecd9a8e.js",
     "static/js/787.e29dc422.chunk.js": "/react-portfolio/static/js/787.e29dc422.chunk.js",
     "static/media/Homepage.png": "/react-portfolio/static/media/Homepage.b0cd432bf2cc996ca1e5.png",
     "static/media/Smart-Home.png": "/react-portfolio/static/media/Smart-Home.8b00d0c05a699be04e07.png",
@@ -13,11 +13,11 @@
     "static/media/bodoni-moda-latin-ext-400-normal.woff2": "/react-portfolio/static/media/bodoni-moda-latin-ext-400-normal.9abb0fd93994a605f374.woff2",
     "index.html": "/react-portfolio/index.html",
     "main.644d7b65.css.map": "/react-portfolio/static/css/main.644d7b65.css.map",
-    "main.464fb9d2.js.map": "/react-portfolio/static/js/main.464fb9d2.js.map",
+    "main.3ecd9a8e.js.map": "/react-portfolio/static/js/main.3ecd9a8e.js.map",
     "787.e29dc422.chunk.js.map": "/react-portfolio/static/js/787.e29dc422.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.644d7b65.css",
-    "static/js/main.464fb9d2.js"
+    "static/js/main.3ecd9a8e.js"
   ]
 }
