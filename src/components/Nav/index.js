@@ -48,7 +48,7 @@ const Nav = () => {
           className="home-name"
           href="/"
           style={{ color: "#3bc14a", marginLeft: "15px" }}
-        ><Link to="/" style={{ color: "#3bc14a" }}><FaHome /></Link>
+        ><Link to="/react-portfolio" style={{ color: "#3bc14a" }}><FaHome /></Link>
         </a>
       </h2>
       <nav>
