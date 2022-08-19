@@ -1,0 +1,61 @@
+/* @media screen and (max-width: 1300px) {
+     .cardsBox {
+         margin-left: 30rem;
+     }
+ }  */
+
+ .reachMeDiv {
+    border-right: solid; 
+    padding-right: 225px; 
+    padding-top: 100px; 
+    border-color: #3BC14A;
+ }
+ .mainDiv {
+     display: flex;
+     justify-content: center;
+ }
+
+ @media screen and (min-width: 1135px) {
+     .reachMeDiv {
+         padding-left: 4rem;
+     }
+ }
+
+ @media screen and (max-width: 1135px) {
+    .reachMeDiv {
+        padding-left: 4rem;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .reachMeDiv {
+        padding-left: 13rem;
+        margin-top: -6rem;
+        padding-bottom: 4rem;
+        border-right: none;
+    }
+}
+@media screen and (max-width: 475px) {
+    .mainDiv {
+        padding-left: 11rem;
+        
+    }
+    .reachMeDiv {
+        padding-bottom: 0rem;
+        display: flex;
+        flex-wrap: wrap;
+        border-right: none
+    }
+}
+@media screen and (min-width: 491px){
+    .mainDiv{
+        padding-left: 5rem
+    }
+}
+
+@media screen and (min-width: 691px) {
+    .reachMeDiv{
+        padding-left: 13rem;
+        border-right: none;
+    }
+}

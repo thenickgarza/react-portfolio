@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import './ContactMe.css'
 
 export const ContactMe = () => {
   const form = useRef();
@@ -29,13 +30,14 @@ export const ContactMe = () => {
   }
 
   return (
+    <div className='mainDiv'>
     <motion.section 
     className="contactmecontainer"
     initial={{opacity:0}}
     animate={{opacity: 1}}
     exit={{opacity: 0}}
     >
-      <div style={{ borderRight: "solid", paddingRight: "225px", paddingTop: "100px", borderColor: "#3BC14A" }}>
+      <div className='reachMeDiv'>
         <h2 style={{color: "rgb(59, 193, 74)"}}>Other Ways To Reach Me!</h2>
         <div style={{display: "flex", flexWrap: "wrap", justifyContent: "space-evenly", marginTop: "50px"}}>
         <a
@@ -88,6 +90,7 @@ export const ContactMe = () => {
         </div>
       </form>
     </motion.section>
+    </div>
   );
 };
 
