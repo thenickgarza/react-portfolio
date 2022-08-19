@@ -62,19 +62,25 @@ html {
   display: block;
   font-size: 3vw;
   color: #3BC14A;
+  display: flex;
+  justify-content: center;
 }
 
 .intro-text {
   display: block;
   font-size: 2.5vw;
   background-color: #4D5057;
-  color: #CFCFCF
+  color: #CFCFCF;
+  display: flex;
+  justify-content: center;
 }
 
 .job-text {
   display: block;
   font-size: 3vw;
   color: #3BC14A;
+  display: flex;
+  justify-content: center;
 }
 
 .container-fluid {
@@ -184,3 +190,9 @@ padding-top: 100px;
 .btn-primary {
   border-color: none;
 }
+
+@media screen and (min-width: 1000px) {
+     .home-text-container {
+         margin-left: 10rem;
+     }
+ } 
