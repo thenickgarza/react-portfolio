@@ -9,18 +9,20 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import profilePic from "../../assets/images/profilePic.png";
 import { motion } from 'framer-motion'
+import "./About.css";
 
 function About() {
   return (
+    <div className='entireDiv'>
     <motion.section
     initial={{opacity:0}}
     animate={{opacity: 1}}
     exit={{opacity: 0}}
     >
       <div
-        style={{ display: "flex", justifyContent: "center", marginTop: "50px" }}
+        style={{ display: "flex", flexWrap: 'wrap', justifyContent: "center", }}
       >
-        <h1 style={{ borderBottom: "solid", color: "#3BC14A" }}>
+        <h1 style={{ borderBottom: "solid", color: "#3BC14A", marginTop: '50px' }}>
           A Little About Me
         </h1>
       </div>
@@ -34,10 +36,11 @@ function About() {
         }}
       >
         <div style={{ textAlign: "center", fontSize: "20px" }}>
-          <div style={{display: "flex", justifyContent: "center"}}>
+          <div style={{display: "flex", flexWrap:'wrap', justifyContent: "center"}}>
           <h1
             style={{
               display: "flex",
+              flexWrap: 'wrap',
               justifyContent: "center",
               color: "#3BC14A",
               borderBottom: "solid"
@@ -79,6 +82,7 @@ function About() {
       <div
         style={{
           display: "flex",
+          flexWrap: 'wrap',
           justifyContent: "center",
           marginTop: "50px",
           color: "#3BC14A",
@@ -93,6 +97,7 @@ function About() {
           justifyContent: "space-evenly",
           marginTop: "50px",
         }}
+        className="techIcons"
       >
         <div
           className="icon icon-html"
@@ -126,6 +131,7 @@ function About() {
         </div>
       </div>
     </motion.section>
+    </div>
   );
 }
 

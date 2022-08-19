@@ -1,0 +1,16 @@
+ .cardsBox {
+    padding-bottom: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 6rem;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-left: 7rem;
+    width: fit-content;
+ }
+ /* @media screen and (max-width: 1300px) {
+     .cardsBox {
+         margin-left: 30rem;
+     }
+ }  */

@@ -8,6 +8,7 @@ import Homepage from "../../assets/images/Homepage.png";
 import WeatherApp from "../../assets/images/WeatherApp.png";
 import { motion } from "framer-motion";
 import "@fontsource/bodoni-moda";
+import './MyWork.css';
 
 function MyWork() {
   return (
@@ -18,17 +19,14 @@ function MyWork() {
     >
       <div style={{display: "flex", justifyContent: "center"}}>
       <h2
-        style={{borderBottom: "solid", color: "#3BC14A", marginBottom: "50px" }}
+        style={{borderBottom: "solid", color: "#3BC14A", marginBottom: "50px", marginTop: '2rem' }}
       >
         My Projects
       </h2>
       </div>
       <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "space-evenly",
-        }}
+        
+        className="cardsBox"
       >
         <Card
           className="card"
@@ -59,7 +57,7 @@ function MyWork() {
 
         <Card
           className="card"
-          style={{ width: "18rem", backgroundColor: "rgb(207, 207, 207)" }}
+          style={{ width: "18rem", backgroundColor: "rgb(207, 207, 207)", marginTop: 'auto' }}
         >
           <Card.Img variant="top" src={Homepage} />
           <Card.Body>

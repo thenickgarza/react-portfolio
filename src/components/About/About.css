@@ -1,0 +1,47 @@
+@media screen and (max-width: 600px) {
+    .entireDiv {
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 45px
+    }
+
+    h1 {
+        margin-left: 25px;
+    }
+
+    .techIcons {
+        padding-left: 20px;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .entireDiv {
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 4rem;
+    }
+
+    h1 {
+        margin-left: 25px;
+    }
+
+    .techIcons {
+        padding-left: 20px;
+    }
+  }
+
+
+  @media screen and (max-width: 375px) {
+      .techIcons {
+          padding-left: 40px
+      }
+  }
+
+  @media screen and (max-width: 1419px) {
+    .techIcons {
+        padding-left: 40px
+    }
+    .entireDiv {
+        padding-left: 4rem;
+    }
+}

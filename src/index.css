@@ -19,15 +19,15 @@ footer {
    left: 0;
    bottom: 0;
    width: 7%;
-   height: 100%;
+   height: 100%vh;
    background-color: #4D5057;
    color: white;
    text-align: center;
 }
 
 html {
-  width: 100%;
-  height: 100%;
+  width: 100%vj;
+  height: 100%vh;
   background-color: #4D5057;
 }
 .flex-row {
@@ -79,7 +79,9 @@ html {
 
 .container-fluid {
   background-color: #4D5057;
+ 
 }
+
 
 .nav-text {
   font-size: large;
@@ -145,8 +147,9 @@ input[type=submit]:hover {
 }
 
 /* Style the counter cards */
+
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
   background-color: #4e6e5d;
