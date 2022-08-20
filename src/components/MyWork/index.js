@@ -16,6 +16,7 @@ function MyWork() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
+      style={{textAlign: "center"}}
     >
       <div style={{display: "flex", justifyContent: "center"}}>
       <h2
