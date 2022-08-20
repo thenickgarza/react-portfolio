@@ -35,6 +35,7 @@ export const ContactMe = () => {
     initial={{opacity:0}}
     animate={{opacity: 1}}
     exit={{opacity: 0}}
+    style={{textAlign: "center"}}
     >
       <div className='reachMeDiv'>
         <h2 style={{color: "rgb(59, 193, 74)"}}>Other Ways To Reach Me!</h2>
