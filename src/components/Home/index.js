@@ -57,7 +57,7 @@ const Home = () => {
     >
       {/* <Nav></Nav> */}
       <div className="container-fluid">
-        <div className="row align-items-center">
+        <div className="row align-items-center" style={{display: 'flex', justifyContent: 'center'}}> 
           <div className="col-lg-6 home-text-container">
             <span className="welcome-text">{textArray1[index1]}</span>
             <span className="intro-text">I'm Nicholas Garza,</span>

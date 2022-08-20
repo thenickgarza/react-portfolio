@@ -32,7 +32,6 @@ export const ContactMe = () => {
   return (
     <div className='mainDiv'>
     <motion.section 
-    className="contactmecontainer"
     initial={{opacity:0}}
     animate={{opacity: 1}}
     exit={{opacity: 0}}
@@ -60,7 +59,7 @@ export const ContactMe = () => {
         </div>
       </div>
       <form ref={form} onSubmit={sendEmail} id="contact-form">
-        <div>
+        <div className="contactMeDiv">
           <div>
             <input
               style={{ width: "-webkit-fill-available" }}
